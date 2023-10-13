@@ -1,42 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: sans-serif;
     display: flex;
-    background-image: url(Bryan-Fullers-Crystal-Lake-to-be-Friday-The-13ths-Prequel-for-Peacock.webp);
+    background-image: url(Bryan-Fullers-Crystal-Lake-to-be-Friday-The-13ths-Prequel-for-Peacock.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 #menu{
     display: block;
-    width: 5vw;
-    height: 5vw;
-    margin-left: 28vw;
+    width: 2vw;
+    height: 2vw;
+    margin-left: 36vw;
+    margin-top: 3vh;
+    
 }
 #close{
     display: none;
-    width: 5vw;
-    height: 5vw;
+    width: 2vw;
+    height: 2vw;
+    margin-left: 6vw;
+    margin-top: 3vh;
 }
 #menu.n{
     display: none;
+    
 }
 #close.n{
     display: block;
+    
 }
 #nav{
     display: none;
+    
 }
 #nav.n{
     display: block;
     display: flex;
     justify-content: space-between;
     width: 25vw;
-    margin-left: 3vw;
-    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-top: 6vh;
+    
 }
 .image{
     margin-top: 3vh;
     margin-left: 55vw;
+    
 }
 .text{
     color: white;
+    
+}
+.text:hover{
+    color: white;
+    border-bottom: 5px solid white;
+    
 }
