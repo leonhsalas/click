@@ -1,12 +1,42 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    background-image: url(Bryan-Fullers-Crystal-Lake-to-be-Friday-The-13ths-Prequel-for-Peacock.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #menu{
     display: block;
+    width: 5vw;
+    height: 5vw;
+    margin-left: 28vw;
 }
 #close{
     display: none;
+    width: 5vw;
+    height: 5vw;
 }
-#menun{
+#menu.n{
     display: none;
 }
-#closen{
+#close.n{
     display: block;
+}
+#nav{
+    display: none;
+}
+#nav.n{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+.image{
+    margin-top: 3vh;
+    margin-left: 55vw;
+}
+.text{
+    color: white;
 }
